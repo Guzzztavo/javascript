@@ -1,0 +1,29 @@
+div.quadrado{
+	width: 150px;
+		height: 150px;
+		border: 2px solid black;
+		margin: 5px;
+		display: inline-block;
+}
+
+section {
+  margin: auto;
+  width: 1000px;
+  height: 300px;
+  }
+  
+  div.quadro_01 {
+background-color: red;
+box-shadow: 3pc 3px 2px black;
+}
+
+div.quadro_02 {
+background-image: linear-gradient(to bottom,yellow,orange );
+box-shadow: 10pc 30px 20px rgba0.0.0.0.2);
+}
+
+div.quadro_03 {
+background-image: url(bobs.jpg);
+box-shadow: 3pc 3px 2px black;
+}
+

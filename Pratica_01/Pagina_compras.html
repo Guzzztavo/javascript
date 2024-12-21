@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta>
+  <form>
+  <head>
+  <link rel="stylesheet" href="estilo.css"/>
+  <script src="Script.js"></script>
+
+  <body>
+ <form>
+
+<label for="produto_nome">Produto</label>
+<input type="text" id="produto_nome" placeholder="produto_nome"/>
+
+<label for="produto_valor">valor:</label>
+<input type="text" id="produto_valor" />
+
+<label for="produto_quantidade">Quantidade:</label>
+<input type="text" id="produto_quantidade" />
+
+  <input type="button" value="adicionarProduto" onClick="adicionarProduto()">
+ <input type="reset" value="Apagar produtos"/>
+   
+ </form>
+ 	
+	<table>
+	<caption>Tabela de produtos</caption>
+	<thead>
+	<tr>
+		<th>Produto</th>
+		<th>Valor</th>
+		<th>Quantidade</th>
+		<th>Valor Venda</th>
+		</tr>
+</thead>
+<tbody id="tabela_produtos">
+</tbody>
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+
+<th id="valor_total"><span>Total R$</span>0,00 </th>
+</tr>
+</tfoot>
+</table>
+  </form>
+  

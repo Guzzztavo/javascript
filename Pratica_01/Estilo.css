@@ -1,0 +1,37 @@
+  body{
+	background-color: LightSteelBlue;
+	  }
+
+form{
+	display:flex;
+	flex-direction: column;
+	width:50%;
+	margin:auto;
+	background-color: white;
+	margin-top: 80px;
+	padding: 10px;
+	border: 1px;
+	border-radius: 10px;
+}
+
+table{
+
+	
+	width:30%;
+	margin:auto;
+	background-color: white;
+	margin-top : 80px;
+	padding: 10px;
+	border: solid 3px;
+	border-radius: 80px;
+}
+
+th, td {
+	color: white ;
+	border: 40px solidwhite;
+	border-collapse:collapse;
+	text-align: center;
+	background-color: grey
+
+
+
